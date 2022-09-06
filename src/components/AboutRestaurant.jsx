@@ -2,7 +2,8 @@ import React from 'react'
 
 function AboutRestaurant() {
   return (
-    <aside className='p-24 hover:scale-105 transition-all duration-700'>
+    <>
+    <aside className='hidden sm:block lg:p-24 p-12 hover:scale-105 transition-all duration-700'>
     <h1 className='font-bold text-2xl'>Restoran məlumatları</h1>
 
     <h1 className='font-bold text-xl my-4'>Ünvan</h1>
@@ -15,6 +16,14 @@ function AboutRestaurant() {
     <h1 className='font-bold text-xl my-4'>Kateqoriyalar</h1>
     <span className='font-semibold my-2'>Azərbaycan fastfood kabab</span>
    </aside>
+   <aside className='block sm:hidden flex flex-col justify-center items-center'>
+    <p className=' font-semibold'>Allergiyanız və ya pəhrizlə bağlı məhdudiyyətləriniz varsa, restoran ilə əlaqə saxlayın. Restoran sorğu əsasında yemək ilə bağlı məlumatlar təmin edəcək.</p>
+    <div>
+    <span className='mx-4 font-semibold  '>Telefon</span>
+    <a className='text-[#00ff] font-semibold '>+994 50 643 98 36</a>  
+    </div>
+   </aside>
+   </>
   )
 }
 

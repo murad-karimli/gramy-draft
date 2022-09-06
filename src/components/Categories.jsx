@@ -3,7 +3,7 @@ import styles from "../styles/Categories.module.css"
 
 function Categories() {
   return (
-    <div className="p-12  ">
+    <div className="lg:p-12 p-16  ">
     <span className={styles.category}>Şorbalar</span>
     <span className={styles.category}>Salatlar</span>
     <span className={styles.category}>Fast Food</span>
