@@ -1,24 +1,35 @@
+import { useEffect } from "react";
 import RestaurantMeal from "./components/RestaurantMeal";
+import Aos from "aos";
+import "aos/dist/aos.css"
 import Categories from "./components/Categories";
 import AboutRestaurant from "./components/AboutRestaurant";
 import DeliveryHead from "./components/DeliveryHead";
 import Restaurant from "./components/Restaurant";
 import Search from "./components/Search";
 function App() {
+  useEffect(()=>{Aos.init({duration:2200})},[])
   return (
-  <div>
-   <DeliveryHead/>
-   <Restaurant/>
-    <main className="">
-      <Search/>
-      <content className="flex lg:flex-row flex-col justify-between my-24">
+  <div className="">
+    <div data-aos="fade-up">
+    <DeliveryHead />
+    <Restaurant/>
+    </div>
+ 
+    <main  className="p-4  ">
+    
+      <content data-aos="fade-right" className="flex lg:flex-row flex-col   justify-between my-24">
       <Categories/>
-       <div className="flex justify-between lg:flex-row  flex-col w-2/3 justify-center items-center">
-       <main className="flex flex-col lg:w-2/3 w-full">
-          <RestaurantMeal/>
-          <RestaurantMeal/>
-          <RestaurantMeal/>
-          <RestaurantMeal/>
+       <div ata-aos="fade-right"  className="flex justify-between lg:flex-row  flex-col w-[80%] justify-center items-start">
+       <main className="flex flex-col lg:w-[80%]  w-full">
+          <RestaurantMeal />
+          <RestaurantMeal />
+          <RestaurantMeal />
+          <RestaurantMeal />
+          <RestaurantMeal />
+          <RestaurantMeal />
+          <RestaurantMeal />
+          <RestaurantMeal />
         </main>
         <AboutRestaurant/>
        </div>

@@ -4,7 +4,7 @@ import{AiOutlineSearch} from "react-icons/ai";
 
 function Search() {
   return (
-    <div className=" hover:scale-105 transition-all duration-700 hover:bg-[#f9fefe] w-2/3 p-8 lg:absolute lg:-bottom-44 lg:right-56 bg-[#F9F9F9] z-10 mx-auto flex shadow-lg shadow-[#777] justify-between rounded-xl">
+    <div className=" hover:scale-105 transition-all duration-700 hover:bg-[#f9fefe] w-2/3 p-8 bottom-0 absolute bg-[#F9F9F9] z-10 left-56 flex shadow-lg shadow-[#777] justify-between rounded-xl">
       <div className="">
       <span className="mx-4">9.5</span>
       <span className="mx-4">10-dan</span>

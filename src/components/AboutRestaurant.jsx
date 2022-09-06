@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutRestaurant() {
   return (
-    <aside className='p-24'>
+    <aside className='p-24 hover:scale-105 transition-all duration-700'>
     <h1 className='font-bold text-2xl'>Restoran məlumatları</h1>
 
     <h1 className='font-bold text-xl my-4'>Ünvan</h1>

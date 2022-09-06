@@ -2,7 +2,7 @@ import React from 'react'
 
 function RestaurantMeal() {
   return (
-    <div className=" hover:scale-105 transition-all w-[95%] lg:w-[80%] duration-700 w-full flex justify-between m-4 p-4 bg-[#fee] hover:bg-[#fef] rounded-2xl shadow-lg shadow-[#777]">
+    <div className=" hover:scale-105 transition-all w-[95%] lg:full duration-700 w-full flex justify-between m-4 p-4 bg-[#fee] hover:bg-[#fef] rounded-2xl shadow-lg shadow-[#777]">
           <div className="px-2 " >
           <h1 className="text-2xl font-bold my-4">Name</h1>
           <span className="block text-md font-semibold  my-4">ingridients</span>
